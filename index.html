@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bar & Restaurante</title>
+    <link rel="icon" type="icon/img/png" href="img/icono3.png">
+   
+</head>
+<body>
+    <header>
+        <br>
+        <br>
+        <center><h1>Menú</h1>
+            <hr class="menu"> 
+        </center>
+        <br>
+        <center>
+            <ul>
+            <button class="btn1" id="boton" onclick="All()"><h3>ALL</h3></button>
+            <button class="btn2" id="boton" onclick="Almuerzo()"><h3>Lunch</h3></button>
+            <button id="boton" onclick="Bebidas()"><h3>Drink</h3></button>
+            <button id="boton" onclick="Cena()"><h3>Dinner</h3></button>
+            <button id="boton" onclick="Postre()"><h3>Dessert</h3></button>
+        </ul>
+        </center>
+    </header>
+
+
+<section >
+
+    <main class="main" id="main">
+     <script>
+          window.addEventListener("DOMContentLoaded",function(){
+            All();
+          });
+     </script>
+    </main>
+    <footer>
+        <center><p>&copy; Bar Restaurante Yolanda Carrillo 2022</p></center>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
